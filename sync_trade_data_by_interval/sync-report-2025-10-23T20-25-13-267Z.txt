@@ -1,0 +1,285 @@
+================================================================================
+                          SYNC API EXECUTION REPORT
+================================================================================
+Generated: 2025-10-23T20:25:13.268Z
+Report File: sync-report-2025-10-23T20-25-13-267Z.txt
+
+SUMMARY
+--------
+Total Intervals Processed: 12
+Successful Calls: 12
+Failed Calls: 0
+Success Rate: 100.0%
+
+TIMESHEET (12-hour format)
+--------------------------
+1. 10/22/2025 2:00:00 PM - 10/22/2025 4:00:00 PM ✅
+2. 10/22/2025 4:00:00 PM - 10/22/2025 6:00:00 PM ✅
+3. 10/22/2025 6:00:00 PM - 10/22/2025 8:00:00 PM ✅
+4. 10/22/2025 8:00:00 PM - 10/22/2025 10:00:00 PM ✅
+5. 10/22/2025 10:00:00 PM - 10/22/2025 12:00:00 AM ✅
+6. 10/22/2025 12:00:00 AM - 10/22/2025 2:00:00 AM ✅
+7. 10/22/2025 2:00:00 AM - 10/22/2025 4:00:00 AM ✅
+8. 10/22/2025 4:00:00 AM - 10/22/2025 6:00:00 AM ✅
+9. 10/22/2025 6:00:00 AM - 10/22/2025 8:00:00 AM ✅
+10. 10/22/2025 8:00:00 AM - 10/22/2025 10:00:00 AM ✅
+11. 10/22/2025 10:00:00 AM - 10/22/2025 12:00:00 AM ✅
+12. 10/22/2025 12:00:00 AM - 10/23/2025 2:00:00 PM ✅
+
+API CALL DETAILS
+================
+
+CALL #1
+--------------------
+Time Range: 2025-10-22 00:00:00 - 2025-10-22 02:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 00:00:00
+  End Time: 2025-10-22 02:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-21 19:00:00 to 2025-10-21 21:00:00",
+    "details": {
+      "startTime": "2025-10-21 19:00:00",
+      "endTime": "2025-10-21 21:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #2
+--------------------
+Time Range: 2025-10-22 02:00:00 - 2025-10-22 04:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 02:00:00
+  End Time: 2025-10-22 04:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-21 21:00:00 to 2025-10-21 23:00:00",
+    "details": {
+      "startTime": "2025-10-21 21:00:00",
+      "endTime": "2025-10-21 23:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #3
+--------------------
+Time Range: 2025-10-22 04:00:00 - 2025-10-22 06:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 04:00:00
+  End Time: 2025-10-22 06:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-21 23:00:00 to 2025-10-22 01:00:00",
+    "details": {
+      "startTime": "2025-10-21 23:00:00",
+      "endTime": "2025-10-22 01:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #4
+--------------------
+Time Range: 2025-10-22 06:00:00 - 2025-10-22 08:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 06:00:00
+  End Time: 2025-10-22 08:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 01:00:00 to 2025-10-22 03:00:00",
+    "details": {
+      "startTime": "2025-10-22 01:00:00",
+      "endTime": "2025-10-22 03:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #5
+--------------------
+Time Range: 2025-10-22 08:00:00 - 2025-10-22 10:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 08:00:00
+  End Time: 2025-10-22 10:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 03:00:00 to 2025-10-22 05:00:00",
+    "details": {
+      "startTime": "2025-10-22 03:00:00",
+      "endTime": "2025-10-22 05:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #6
+--------------------
+Time Range: 2025-10-22 10:00:00 - 2025-10-22 12:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 10:00:00
+  End Time: 2025-10-22 12:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 05:00:00 to 2025-10-22 07:00:00",
+    "details": {
+      "startTime": "2025-10-22 05:00:00",
+      "endTime": "2025-10-22 07:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #7
+--------------------
+Time Range: 2025-10-22 12:00:00 - 2025-10-22 14:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 12:00:00
+  End Time: 2025-10-22 14:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 07:00:00 to 2025-10-22 09:00:00",
+    "details": {
+      "startTime": "2025-10-22 07:00:00",
+      "endTime": "2025-10-22 09:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #8
+--------------------
+Time Range: 2025-10-22 14:00:00 - 2025-10-22 16:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 14:00:00
+  End Time: 2025-10-22 16:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 09:00:00 to 2025-10-22 11:00:00",
+    "details": {
+      "startTime": "2025-10-22 09:00:00",
+      "endTime": "2025-10-22 11:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #9
+--------------------
+Time Range: 2025-10-22 16:00:00 - 2025-10-22 18:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 16:00:00
+  End Time: 2025-10-22 18:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 11:00:00 to 2025-10-22 13:00:00",
+    "details": {
+      "startTime": "2025-10-22 11:00:00",
+      "endTime": "2025-10-22 13:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #10
+--------------------
+Time Range: 2025-10-22 18:00:00 - 2025-10-22 20:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 18:00:00
+  End Time: 2025-10-22 20:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 13:00:00 to 2025-10-22 15:00:00",
+    "details": {
+      "startTime": "2025-10-22 13:00:00",
+      "endTime": "2025-10-22 15:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #11
+--------------------
+Time Range: 2025-10-22 20:00:00 - 2025-10-22 22:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 20:00:00
+  End Time: 2025-10-22 22:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 15:00:00 to 2025-10-22 17:00:00",
+    "details": {
+      "startTime": "2025-10-22 15:00:00",
+      "endTime": "2025-10-22 17:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #12
+--------------------
+Time Range: 2025-10-22 22:00:00 - 2025-10-23 00:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-22 22:00:00
+  End Time: 2025-10-23 00:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-22 17:00:00 to 2025-10-22 19:00:00",
+    "details": {
+      "startTime": "2025-10-22 17:00:00",
+      "endTime": "2025-10-22 19:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+END OF REPORT
+================================================================================

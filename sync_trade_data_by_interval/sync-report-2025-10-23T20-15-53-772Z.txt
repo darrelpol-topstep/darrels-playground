@@ -1,0 +1,87 @@
+================================================================================
+                          SYNC API EXECUTION REPORT
+================================================================================
+Generated: 2025-10-23T20:15:53.773Z
+Report File: sync-report-2025-10-23T20-15-53-772Z.txt
+
+SUMMARY
+--------
+Total Intervals Processed: 3
+Successful Calls: 3
+Failed Calls: 0
+Success Rate: 100.0%
+
+TIMESHEET (12-hour format)
+--------------------------
+1. 10/21/2025 6:00:00 PM - 10/21/2025 8:00:00 PM ✅
+2. 10/21/2025 8:00:00 PM - 10/21/2025 10:00:00 PM ✅
+3. 10/21/2025 10:00:00 PM - 10/21/2025 12:00:00 AM ✅
+
+API CALL DETAILS
+================
+
+CALL #1
+--------------------
+Time Range: 2025-10-21 04:00:00 - 2025-10-21 06:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-21 04:00:00
+  End Time: 2025-10-21 06:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-20 23:00:00 to 2025-10-21 01:00:00",
+    "details": {
+      "startTime": "2025-10-20 23:00:00",
+      "endTime": "2025-10-21 01:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #2
+--------------------
+Time Range: 2025-10-21 06:00:00 - 2025-10-21 08:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-21 06:00:00
+  End Time: 2025-10-21 08:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-21 01:00:00 to 2025-10-21 03:00:00",
+    "details": {
+      "startTime": "2025-10-21 01:00:00",
+      "endTime": "2025-10-21 03:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+CALL #3
+--------------------
+Time Range: 2025-10-21 08:00:00 - 2025-10-21 10:00:00
+Status: ✅ SUCCESS
+
+REQUEST PAYLOAD:
+  Start Time: 2025-10-21 08:00:00
+  End Time: 2025-10-21 10:00:00
+
+RESPONSE:
+  {
+    "message": "Created sync job for time interval: 2025-10-21 03:00:00 to 2025-10-21 05:00:00",
+    "details": {
+      "startTime": "2025-10-21 03:00:00",
+      "endTime": "2025-10-21 05:00:00",
+      "durationHours": "2.00"
+    }
+  }
+
+==================================================
+
+END OF REPORT
+================================================================================
